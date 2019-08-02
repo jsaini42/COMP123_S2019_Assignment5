@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.SplashTimer = new System.Windows.Forms.Timer(this.components);
+            this.DisplayLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SplashTimer
@@ -37,16 +38,31 @@
             this.SplashTimer.Interval = 3000;
             this.SplashTimer.Tick += new System.EventHandler(this.SplashTimer_Tick);
             // 
+            // DisplayLabel
+            // 
+            this.DisplayLabel.BackColor = System.Drawing.Color.FloralWhite;
+            this.DisplayLabel.Location = new System.Drawing.Point(338, 107);
+            this.DisplayLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.DisplayLabel.Name = "DisplayLabel";
+            this.DisplayLabel.Size = new System.Drawing.Size(429, 72);
+            this.DisplayLabel.TabIndex = 0;
+            this.DisplayLabel.Text = "Welcome to Dollar Computers !";
+            // 
             // SplashScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::COMP123_S2019_Assignment5.Properties.Resources.logo1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
-            this.MinimizeBox = false;
+            this.Controls.Add(this.DisplayLabel);
+            this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.MaximizeBox = false;
             this.Name = "SplashScreen";
-            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";
             this.Load += new System.EventHandler(this.SplashScreen_Load);
@@ -57,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.Timer SplashTimer;
+        private System.Windows.Forms.Label DisplayLabel;
     }
 }

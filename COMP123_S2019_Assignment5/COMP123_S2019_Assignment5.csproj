@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FormName.cs" />
+    <Compile Include="SelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectForm.Designer.cs">
+      <DependentUpon>SelectForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
@@ -88,6 +95,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logod.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollarlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollarlogo_.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logostartform.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

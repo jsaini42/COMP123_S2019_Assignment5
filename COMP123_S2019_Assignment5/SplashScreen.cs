@@ -28,5 +28,6 @@ namespace COMP123_S2019_Assignment5
         {
             SplashTimer.Enabled = true;
         }
+
     }
 }
