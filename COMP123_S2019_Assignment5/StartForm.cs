@@ -21,5 +21,22 @@ namespace COMP123_S2019_Assignment5
         {
 
         }
+
+        private void StartNewOrderButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.Forms[FormName.SELECT_FORM].Show();
+        }
+
+        private void ExitProgramButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void LoadSavedOrderButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.Forms[FormName.PRODUCTINFO_FORM].Show();
+        }
     }
 }

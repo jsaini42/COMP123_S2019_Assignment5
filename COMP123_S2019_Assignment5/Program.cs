@@ -20,6 +20,9 @@ namespace COMP123_S2019_Assignment5
             Forms = new Dictionary<FormName, Form>();
             Forms.Add(FormName.SPLASH_SCREEN, new SplashScreen());
             Forms.Add(FormName.START_FORM, new StartForm());
+            Forms.Add(FormName.SELECT_FORM, new SelectForm());
+            Forms.Add(FormName.PRODUCTINFO_FORM, new ProductInfoForm());
+            Forms.Add(FormName.ORDER_FORM, new OrderForm());
             Application.Run(Forms[FormName.SPLASH_SCREEN]);
         }
     }

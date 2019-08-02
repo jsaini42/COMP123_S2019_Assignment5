@@ -54,6 +54,7 @@
             this.StartNewOrderButton.TabIndex = 1;
             this.StartNewOrderButton.Text = "Start New Order";
             this.StartNewOrderButton.UseVisualStyleBackColor = true;
+            this.StartNewOrderButton.Click += new System.EventHandler(this.StartNewOrderButton_Click);
             // 
             // LoadSavedOrderButton
             // 
@@ -61,8 +62,9 @@
             this.LoadSavedOrderButton.Name = "LoadSavedOrderButton";
             this.LoadSavedOrderButton.Size = new System.Drawing.Size(254, 48);
             this.LoadSavedOrderButton.TabIndex = 2;
-            this.LoadSavedOrderButton.Text = "Load Saved Order";
+            this.LoadSavedOrderButton.Text = "View Saved Order";
             this.LoadSavedOrderButton.UseVisualStyleBackColor = true;
+            this.LoadSavedOrderButton.Click += new System.EventHandler(this.LoadSavedOrderButton_Click);
             // 
             // ExitProgramButton
             // 
@@ -72,6 +74,7 @@
             this.ExitProgramButton.TabIndex = 3;
             this.ExitProgramButton.Text = "Exit Now!";
             this.ExitProgramButton.UseVisualStyleBackColor = true;
+            this.ExitProgramButton.Click += new System.EventHandler(this.ExitProgramButton_Click);
             // 
             // logopictureBox
             // 
@@ -95,6 +98,7 @@
             this.Controls.Add(this.StartNewOrderButton);
             this.Controls.Add(this.DisplayLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.MinimizeBox = false;
             this.Name = "StartForm";

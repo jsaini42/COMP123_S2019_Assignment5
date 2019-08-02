@@ -10,6 +10,9 @@ namespace COMP123_S2019_Assignment5
     {
         SPLASH_SCREEN,
         START_FORM,
+        SELECT_FORM,
+        PRODUCTINFO_FORM,
+        ORDER_FORM,
         NUM_OF_FORMS
     }
 }
