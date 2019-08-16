@@ -63,6 +63,26 @@ namespace COMP123_S2019_Assignment5.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aboutlogo {
+            get {
+                object obj = ResourceManager.GetObject("aboutlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aboutlogo1 {
+            get {
+                object obj = ResourceManager.GetObject("aboutlogo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dollarlogo {
             get {
                 object obj = ResourceManager.GetObject("dollarlogo", resourceCulture);
@@ -106,6 +126,26 @@ namespace COMP123_S2019_Assignment5.Properties {
         internal static System.Drawing.Bitmap logostartform {
             get {
                 object obj = ResourceManager.GetObject("logostartform", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProductInfoBackground {
+            get {
+                object obj = ResourceManager.GetObject("ProductInfoBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap projectbackground {
+            get {
+                object obj = ResourceManager.GetObject("projectbackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("COMP123_S2019_Assignment5")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("COMP123_S2019_Assignment5")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
+[assembly: AssemblyCompany("437-996-9260")]
+[assembly: AssemblyProduct("Jaspinder Singh Saini")]
+[assembly: AssemblyCopyright("https://github.com/jsaini42/COMP123_S2019_Assignment5")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

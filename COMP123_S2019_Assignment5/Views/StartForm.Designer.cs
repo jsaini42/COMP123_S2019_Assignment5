@@ -39,28 +39,33 @@
             // DisplayLabel
             // 
             this.DisplayLabel.AutoSize = true;
-            this.DisplayLabel.Location = new System.Drawing.Point(17, 30);
-            this.DisplayLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.DisplayLabel.BackColor = System.Drawing.Color.Black;
+            this.DisplayLabel.ForeColor = System.Drawing.Color.White;
+            this.DisplayLabel.Location = new System.Drawing.Point(41, 26);
+            this.DisplayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DisplayLabel.Name = "DisplayLabel";
-            this.DisplayLabel.Size = new System.Drawing.Size(343, 31);
+            this.DisplayLabel.Size = new System.Drawing.Size(200, 20);
             this.DisplayLabel.TabIndex = 0;
             this.DisplayLabel.Text = "Order Your Computer Now!";
             // 
             // StartNewOrderButton
             // 
-            this.StartNewOrderButton.Location = new System.Drawing.Point(60, 241);
+            this.StartNewOrderButton.BackColor = System.Drawing.SystemColors.Control;
+            this.StartNewOrderButton.Location = new System.Drawing.Point(67, 216);
+            this.StartNewOrderButton.Margin = new System.Windows.Forms.Padding(2);
             this.StartNewOrderButton.Name = "StartNewOrderButton";
-            this.StartNewOrderButton.Size = new System.Drawing.Size(254, 48);
+            this.StartNewOrderButton.Size = new System.Drawing.Size(153, 31);
             this.StartNewOrderButton.TabIndex = 1;
             this.StartNewOrderButton.Text = "Start New Order";
-            this.StartNewOrderButton.UseVisualStyleBackColor = true;
+            this.StartNewOrderButton.UseVisualStyleBackColor = false;
             this.StartNewOrderButton.Click += new System.EventHandler(this.StartNewOrderButton_Click);
             // 
             // LoadSavedOrderButton
             // 
-            this.LoadSavedOrderButton.Location = new System.Drawing.Point(60, 306);
+            this.LoadSavedOrderButton.Location = new System.Drawing.Point(67, 270);
+            this.LoadSavedOrderButton.Margin = new System.Windows.Forms.Padding(2);
             this.LoadSavedOrderButton.Name = "LoadSavedOrderButton";
-            this.LoadSavedOrderButton.Size = new System.Drawing.Size(254, 48);
+            this.LoadSavedOrderButton.Size = new System.Drawing.Size(153, 31);
             this.LoadSavedOrderButton.TabIndex = 2;
             this.LoadSavedOrderButton.Text = "View Saved Order";
             this.LoadSavedOrderButton.UseVisualStyleBackColor = true;
@@ -68,9 +73,10 @@
             // 
             // ExitProgramButton
             // 
-            this.ExitProgramButton.Location = new System.Drawing.Point(60, 371);
+            this.ExitProgramButton.Location = new System.Drawing.Point(67, 326);
+            this.ExitProgramButton.Margin = new System.Windows.Forms.Padding(2);
             this.ExitProgramButton.Name = "ExitProgramButton";
-            this.ExitProgramButton.Size = new System.Drawing.Size(254, 48);
+            this.ExitProgramButton.Size = new System.Drawing.Size(153, 31);
             this.ExitProgramButton.TabIndex = 3;
             this.ExitProgramButton.Text = "Exit Now!";
             this.ExitProgramButton.UseVisualStyleBackColor = true;
@@ -79,32 +85,35 @@
             // logopictureBox
             // 
             this.logopictureBox.Image = global::COMP123_S2019_Assignment5.Properties.Resources.logostartform;
-            this.logopictureBox.Location = new System.Drawing.Point(45, 75);
+            this.logopictureBox.Location = new System.Drawing.Point(45, 66);
+            this.logopictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.logopictureBox.Name = "logopictureBox";
-            this.logopictureBox.Size = new System.Drawing.Size(279, 149);
+            this.logopictureBox.Size = new System.Drawing.Size(196, 119);
             this.logopictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.logopictureBox.TabIndex = 4;
             this.logopictureBox.TabStop = false;
             // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 441);
+            this.BackgroundImage = global::COMP123_S2019_Assignment5.Properties.Resources.projectbackground;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(304, 461);
             this.ControlBox = false;
             this.Controls.Add(this.logopictureBox);
             this.Controls.Add(this.ExitProgramButton);
             this.Controls.Add(this.LoadSavedOrderButton);
             this.Controls.Add(this.StartNewOrderButton);
             this.Controls.Add(this.DisplayLabel);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimizeBox = false;
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome to Dollar Computers!!";
-            this.Load += new System.EventHandler(this.StartForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logopictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

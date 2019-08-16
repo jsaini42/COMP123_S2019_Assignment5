@@ -1,4 +1,4 @@
-﻿namespace COMP123_S2019_Assignment5
+﻿namespace COMP123_S2019_Assignment5.Views
 {
     partial class SplashScreen
     {
@@ -40,11 +40,12 @@
             // 
             // DisplayLabel
             // 
-            this.DisplayLabel.BackColor = System.Drawing.Color.FloralWhite;
-            this.DisplayLabel.Location = new System.Drawing.Point(338, 107);
+            this.DisplayLabel.BackColor = System.Drawing.Color.Transparent;
+            this.DisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DisplayLabel.Location = new System.Drawing.Point(185, 99);
             this.DisplayLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.DisplayLabel.Name = "DisplayLabel";
-            this.DisplayLabel.Size = new System.Drawing.Size(391, 72);
+            this.DisplayLabel.Size = new System.Drawing.Size(437, 73);
             this.DisplayLabel.TabIndex = 0;
             this.DisplayLabel.Text = "Welcome to Dollar Computers !";
             // 
@@ -60,7 +61,7 @@
             this.Controls.Add(this.DisplayLabel);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.MaximizeBox = false;
             this.Name = "SplashScreen";
