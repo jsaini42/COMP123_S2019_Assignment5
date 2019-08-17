@@ -103,7 +103,7 @@ namespace COMP123_S2019_Assignment5.Views
             OSTextBox.Text = "" + Program.product.OS;
             PriceTextBox.Text = "" + Program.product.cost;
             SalesTaxTextBox.Text = "" + (19 * Program.product.cost )/100;
-            TotalTextBox.Text = ""+ PriceTextBox.Text + SalesTaxTextBox.Text;
+            TotalTextBox.Text = ""+ $"{ PriceTextBox.Text + SalesTaxTextBox.Text}";
         }
     }
 }

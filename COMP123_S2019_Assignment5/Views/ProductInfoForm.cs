@@ -164,7 +164,7 @@ namespace COMP123_S2019_Assignment5.Views
                         Program.product.CPU_type = reader.ReadLine();
                         Program.product.CPU_speed = reader.ReadLine();
                         Program.product.webcam = reader.ReadLine();
-
+                        
 
                         // to clear
                         reader.Close();

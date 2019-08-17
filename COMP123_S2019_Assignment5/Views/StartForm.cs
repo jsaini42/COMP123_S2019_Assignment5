@@ -47,6 +47,8 @@ namespace COMP123_S2019_Assignment5
         {
             this.Hide();
             Program.Forms[FormName.PRODUCTINFO_FORM].Show();
+           
+            
         }
     }
 }
